@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="zh-hant-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>失落之鄉</title>
+    <link rel="stylesheet" href="art.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <style>body{font-family: 'Noto Sans TC', sans-serif;}</style>
+  </head>
+  <body>
+    <header>
+      <center><a href="index.html"><img src="images/logo.png" width="350"></a><br>
+      <div class="menu">
+        <a href="card.html"><img src="images/卡片圖鑑按鍵.png" width="120"></a>
+        <a href="worldview.html"><img src="images/故事劇情按鍵.png" width="120"></a>
+        <a href="rules.html"><img src="images/詳細規則按鍵.png" width="120"></a>
+        <a href="tactics.html"><img src="images/打法教學按鍵.png" width="120"></a>
+      </div>
+    </center>
+
+    <br>
+    
+     <!--輪播
+      移開式 id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    淡入淡出式 id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">-->
+    <center>
+      <div data-bs-interval="3000" id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="001.html"><img src="images/banner0.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="002.html"><img src="images/banner1.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="003.html"><img src="images/banner2.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="004.html"><img src="images/banner3.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="005.html"><img src="images/banner4.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </center>
+  </header>
+
+    <br>
+
+    <div class="box">
+      <!--系列選單-->
+      <div class="seriesmenu">
+        <a href="sitecard.html">場地卡</a><br>
+        <br>
+        <a href="001.html">殺戮革命系列</a><br>
+        <br>
+        <a href="002.html">無國界旅團系列</a><br>
+        <br>
+        <a href="003.html"><font color="#cc8a3f">德魯伊聯合部族系列</font></a><br>
+        <br>
+        <a href="004.html">百鬼夜行物語系列</a><br>
+        <br>
+        <a href="005.html">創世龍的後裔系列</a><br>
+        <br>
+        <a href="006.html">永夜族領土系列</a><br>
+        <br>
+        <a href="007.html">月神淨土系列</a><br>
+        <br>
+        <a href="008.html">盛大魔法師系列</a><br>
+        <br>
+        <a href="009.html">鋼鐵核心系列</a><br>
+        <br>
+        <a href="010.html">破陣兵團系列</a><br>
+        <br>
+      </div>
+
+      &ensp;&ensp;
+    
+      <!--卡片介紹-->
+      <div class="content">
+        <font size="4" color="#FFFFF">
+          <center>
+            <h3>德魯伊聯合部族系列</h3>
+          於人類之中最擅長使用魔法的一個族群。與自然萬物共生。<br>
+          在日神族侵略人間後，各個德魯伊分族聯合進行抵禦。<br><br>
+          <img src="images/系列卡背/003 德魯伊聯合部族Druids.png" width="240">
+          </center>
+        </font>
+        <!--英靈卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#hero" role="button" aria-expanded="false" aria-controls="hero">
+        <img src="images/英靈卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="hero">
+          <table>
+          
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 海豚圍舞 蘭特.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-01 海豚圍舞 蘭特</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級2<br>
+              力量／生命上限：2／3<br>
+              元素／種族：水／獸<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：無。<br>
+              技能－海岸巡遊者：<br>
+              我方處於召喚階段時，選擇手牌中1張「德魯伊聯合部族－聖獸」系列的英靈為對象，並將其給對手查看來使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              此卡等級變為對象等級，並從牌組將1張低於對象等級的獸或蟲族英靈加入手牌。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              蘭特是住在海邊的一個德魯伊族小部落。<br>
+              整天與海豚為伍，陪著他們哼著音樂和玩球。<br>
+              在學會獸化後，便時常獸化成海豚與其他海豚一同游向遠方探索未知。<br><br>
+              <br><br>
+        
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 草木為根 羅庫.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-02 草木為根 羅庫</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級2<br>
+              力量／生命上限：4／2<br>
+              元素／種族：木／蟲<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：無。<br>
+              技能－暴怒蝗蟲：<br>
+              我方處於召喚階段時，我方場上存在「德魯伊聯合部族－聖獸」系列的英靈才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              此回合內，此卡力量翻倍。回合結束時，此卡送入冥界，並且從牌組將1張「德魯伊聯合部族」或「德魯伊聯合部族－聖獸」系列的英靈加入手牌。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              羅庫對守護德魯伊族的使命深信不疑，一旦有人汙辱了德魯伊族，便會展現他那最壞最臭的脾氣給別人看。<br>
+              在志願軍必須經歷的模擬戰中，他總是以最快的成績攻堅目標。<br><br>              
+            
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 樂天笑道 寇勒.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-03 樂天笑道 寇勒</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：4／4<br>
+              元素／種族：木／獸<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：無。<br>
+              技能－大樹為家：<br>
+              我方處於召喚階段時，我方場上存在「德魯伊聯合部族－聖獸」系列的英靈才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              從牌組或冥界將1張卡名為「卡巴拉樹」的事件卡加入手牌。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              寇勒從小便習慣化作無尾熊住在樹上，他認為能夠俯視地面是一件很賞心悅目的事情。<br>
+              長大後，他幹了件最誇張的事，那就是跑去住在所有德魯伊人的神聖象徵「卡巴拉樹」。<br><br>
+         
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 前鋒掃蕩 霍奈特.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-04 前鋒掃蕩 霍奈特</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：4／4<br>
+              元素／種族：暗／蟲<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：無。<br>
+              技能－毒針殺：<br>
+              我方處於召喚階段時，我方場上存在「德魯伊聯合部族－聖獸」系列的英靈才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              選擇對手前鋒區1張英靈受到4點傷害。之後，此卡於此回合無法攻擊。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              霍奈特是羅庫在志願軍中唯一結識的女性朋友。<br>
+              比起羅庫的正面對抗，霍奈特更喜歡隻身一人刺殺目標，不過這是建立在同伴吸引住敵人注意的情況下。<br>
+              後來，霍奈特和羅庫都成為正式的軍人，對抗來自赫勒爾軍團的魔族。<br><br>
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 歸隱山林 迪斯卡.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-05 歸隱山林 迪斯卡</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級1<br>
+              力量／生命上限：2／2<br>
+              元素／種族：木／獸<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：無。<br>
+              技能－呼吸、吃飯、睡覺：<br>
+              我方處於召喚階段時，我方場上存在「德魯伊聯合部族－聖獸」系列的英靈才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              我方從牌組上方抽1張牌。此回合內，混合召喚的次數增加1次，我方無法執行戰鬥階段。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              人生的態度便是享樂主義，直到家園受到魔族砲火的影響，他才意識到該做些改變。<br>
+              平時，他很喜歡躺在樹上給其他動物講故事，即使那些動物都聽不懂。
+              <br><br>
+              
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 心直如雷 諾拉.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-06 心直如雷 諾拉</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：5／3<br>
+              元素／種族：光／獸<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：無。<br>
+              技能－踏雷震拳：<br>
+              我方處於召喚階段，我方場上存在「德魯伊聯合部族－聖獸」系列的英靈，並此卡生命為2或以上時才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              此回合內，此卡特殊攻擊無須代價，並此卡的攻擊對象會受到2倍的戰鬥傷害。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              身為德魯伊族的一份子，每個孩子打從出生就具備著蟲獸之力。而諾拉卻和其他的孩子不同，她既無法喚醒體內的蟲獸之力，也沒辦法使出元素魔法。於是她苦練鑽研白魔法，希望能以治療術守護村民。<br>
+              當魔族第二次侵入人間，賽勒斯向東方旅行和擊退魔族一陣子後，想家的他便和一同行走的夥伴回到德魯伊族的地方，並在魔法學院與諾拉相識。<br>
+              一日，她在課堂修練元素魔法中消耗過多精神力，導致元素魔法威力過大，並使得自己在魔法結界關閉時遭到魔法反噬。此刻，她陷入昏迷。<br>
+              昏睡了一天過後，在醫院醒來的諾拉發現自己身旁有兩隻獸魂在看著自己，一隻是獵豹，一隻是棕熊。見到此景的諾拉立馬下床靠向牆角，兩隻獸魂也隨之靠上。<br>
+              之後，在諾拉不斷的嘗試，已經能掌握和了解到獵豹擁有疾雷之力，能夠使她在體力充盈的情況下使雙腿爆發出雷電，並只需要十秒就能跑完整間魔法學院。也能利用指尖射出細小的電流。<br>
+              諾拉在運用棕熊帶給她的大地之力時，肌肉密度會變得很高，也會變得發達，所以她後來習得將手臂化為熊掌，並利用疾雷之力靠近對手，再靠著發達的肌肉和熊掌給予致命一拳。
+              <br><br>
+
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 千機皆知 暴風蝶.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-07 千機皆知 暴風蝶</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級5<br>
+              力量／生命上限：3／5<br>
+              元素／種族：氣／蟲<br>
+              特殊攻擊類型：貫穿<br>
+              召喚條件：混合召喚。必須以「德魯伊聯合部族」系列的英靈為素材。<br>
+              技能－風語入耳：<br>
+              此卡混合召喚時才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              從我方冥界選擇2張「德魯伊聯合部族」的英靈召喚至我方場上。之後可以查看對手事物區1張卡片。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              暴風蝶是賽勒斯家鄉的聖獸，具有看見未來的能力。<br>
+              聖獸擁有學習人類說話的能力，所以暴蜂蝶時常召集一些人，並告訴他們自己所看見的未來。大多數人對此深信不疑。
+              <br><br>              
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 護佑平安 灰貓.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-08 護佑平安 灰貓</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級6<br> 
+              力量／生命上限：5／5<br> 
+              元素／種族：氣／獸<br> 
+              特殊攻擊類型：貫穿<br> 
+              召喚條件：混合召喚。必須以「德魯伊聯合部族」系列的英靈為素材。<br> 
+              技能－踏步生花：<br> 
+              我方場上「德魯伊聯合部族」或「德魯伊聯合部族－聖獸」系列的英靈被選為攻擊對象時才能使用此技能。<br> 
+              從牌組將1張「德魯伊聯合部族」系列的英靈加入手牌，並且將該次攻擊的戰鬥傷害減半。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              灰貓是迪斯卡家鄉的聖獸，在魔族的戰火迎向這邊時，牠發揮自己的力量保護了所有村民，所以僅有部分建設被摧毀。
+              <br><br>              
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 戰歌百里 神鷹.png" width="270"</td>
+            <td ><font size="5" color="#FFFFF"><b>003DD-H-09 戰歌百里 神鷹</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級4<br> 
+              力量／生命上限：5／3<br> 
+              元素／種族：氣／獸<br> 
+              特殊攻擊類型：貫穿<br> 
+              召喚條件：混合召喚。必須以「德魯伊聯合部族」系列的英靈為素材。<br> 
+              技能－獵殺爪痕：<br> 
+              我方場上「德魯伊聯合部族」或「德魯伊聯合部族－聖獸」系列的英靈被選為攻擊者時才能使用此技能。<br> 
+              該次攻擊的攻擊對象於戰鬥結算階段受到2點傷害。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              神鷹是羅庫和霍奈特的部隊聖獸。
+              時常作為前往遠方觀察情報的功用，也具有一定的作戰能力。
+              <br><br>              
+            </font></td>
+          </tr>
+
+          </table>
+        </div>
+
+        <!--事件卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#event" role="button" aria-expanded="false" aria-controls="event">
+        <img src="images/事件卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="event">
+            <table>
+            
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 力戰拚搏.png" width="270"</td>
+              <td ><font size="5" color="#FFFFF"><b>003DD-E-01 力戰拚搏</b></font><br>
+              <font size="4" color="#FFFFF">
+                對手處於戰鬥對象階段時才能使用此卡。<br> 
+                同名卡1回合只能使用1次。<br> 
+                此回合內，我方場上獸或蟲族英靈上升1點力量，並且不會因為戰鬥傷害使生命歸零而送入冥界。<br>
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                德魯伊人對於捍衛民族十分兇悍，即使要斷手斷腳也在所不惜。<br><br>
+                
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 背水一戰.png" width="270"</td>
+              <td ><font size="5" color="#FFFFF"><b>003DD-E-02 背水一戰</b></font><br>
+              <font size="4" color="#FFFFF">
+                對手的召喚階段，選擇我方場上1張「德魯伊聯合部族」系列的英靈為對象來使用此卡。<br> 
+                同名卡1回合只能使用1次。<br> 
+                此回合內，對象力量提升3點，生命扣除1點。<br> 
+                （生命為1的英靈無法作為對象）
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                德魯伊人對於捍衛民族十分兇悍，即使要斷手斷腳也在所不惜。<br><br>
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 未雨綢繆.png" width="270"</td>
+              <td ><font size="5" color="#FFFFF"><b>003DD-E-03 未雨綢繆</b></font><br>
+              <font size="4" color="#FFFFF">
+                我方處於召喚階段時才能使用此卡。<br> 
+                同名卡1回合只能使用1次。<br> 
+                從冥界將「德魯伊聯合部族」系列的事件卡自選數量來給對手查看，之後覆蓋在我方事件區，被選擇的卡於此回合無法使用。下次對手回合結束時，這些卡送入冥界。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                平時沒有要訓練的時候，羅庫總喜歡拉著霍奈特在邊疆建立一些陷阱。<br><br>
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 蘊含生命能量的笛音.png" width="270"</td>
+              <td ><font size="5" color="#FFFFF"><b>003DD-E-04 蘊含生命能量的笛音</b></font><br>
+              <font size="4" color="#FFFFF">
+                我方處於召喚階段時才能使用此卡。<br>
+                同名卡1回合只能使用1次。<br>
+                從我方牌組將1張事件卡加入手牌，之後我方場上獸或蟲族英靈生命回復1點。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                傳說，在德魯伊族中有個長笛能夠吹出治癒萬物的聲音。<br><br>
+
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 魔法山莊學院.png" width="270"</td>
+              <td ><font size="5" color="#FFFFF"><b>003DD-E-05 魔法山莊學院</b></font><br>
+              <font size="4" color="#FFFFF">
+                長期事件卡<br>
+                我方處於召喚階段時才能使用此卡。<br>
+                同名卡1回合只能使用1次。<br>
+                將手牌中1張「德魯伊聯合部族」系列的事件卡送入冥界，之後從牌組將1張獸或蟲族英靈加入手牌。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                這間學院是德魯伊人認為最好的魔法科系學校。<br><br>
+
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 卡巴拉樹.png" width="270"</td>
+              <td ><font size="5" color="#FFFFF"><b>003DD-E-06 卡巴拉樹</b></font><br>
+              <font size="4" color="#FFFFF">
+                長期事件卡<br>
+                將手牌中1張「德魯伊聯合部族」系列的事件卡送入冥界，並且選擇我方冥界1張獸或蟲族英靈為對象來使用此卡。<br>
+                同名卡1回合只能使用1次。<br>
+                下次我方回合開始時，對象召喚至我方場上。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                在德魯伊人的心中，卡巴拉樹是孕育德魯伊人一切的開端。<br>
+                在以前，如果整個部落要搬遷，便會砍下一根卡巴拉樹的樹根，然後到新的落居點種下這根樹根，便能在那地方重新長出一棵卡巴拉樹。<br><br>
+
+              </font></td>
+            </tr>
+
+          </table>
+        </div>
+
+      </div>
+    </div>
+   
+    <br><br><br>
+
+    <footer>
+      <bottom>
+      <center>
+          <br>
+          <a href="index.html"><font color="#000000">回到首頁</font></a>
+          <br>
+          <font color="#000000">聯絡方式：hometownoflost@gmail.com（gmail）</font>
+          <br>
+          @2023 hometown of lost team
+          <br><br>
+          
+      </center>
+      </bottom>
+    </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

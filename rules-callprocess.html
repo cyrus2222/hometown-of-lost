@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-hant-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>失落之鄉</title>
+    <link rel="stylesheet" href="art.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <style>body{font-family: 'Noto Sans TC', sans-serif;}</style>
+  </head>
+  <body>
+    <header>
+      <center><a href="index.html"><img src="images/logo.png" width="350"></a><br>
+      <div class="menu">
+        <a href="card.html"><img src="images/卡片圖鑑按鍵.png" width="120"></a>
+        <a href="worldview.html"><img src="images/故事劇情按鍵.png" width="120"></a>
+        <a href="rules.html"><img src="images/詳細規則按鍵.png" width="120"></a>
+        <a href="tactics.html"><img src="images/打法教學按鍵.png" width="120"></a>
+      </div>
+    </center>
+
+    <br>
+    
+     <!--輪播
+      移開式 id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    淡入淡出式 id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">-->
+    <center>
+      <div data-bs-interval="3000" id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="001.html"><img src="images/banner0.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="002.html"><img src="images/banner1.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="003.html"><img src="images/banner2.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="004.html"><img src="images/banner3.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="005.html"><img src="images/banner4.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </center>
+  </header>
+
+  <br>
+
+  <div class="box">
+    <!--規則選單-->
+    <div class="seriesmenu">
+      <a href="rules.html">機制介紹和遊戲準備</a><br>
+      <br>
+      &ensp;<font size="4">遊戲流程</font><br>
+      &ensp;&ensp;<a href="rules-roundprocess.html">回合流程</a><br>
+      &ensp;&ensp;<a href="rules-callprocess.html"><font color="#cc8a3f">召喚流程</font></a><br>
+      &ensp;&ensp;<a href="rules-fightprocess.html">戰鬥流程</a><br>
+      &ensp;&ensp;<a href="rules-useprocess.html">使用卡片效果流程</a><br>
+      <br>
+      <a href="rules-basicrules.html">基本規則</a><br>
+      <br>
+      <a href="rules-fightrules.html">戰鬥規則</a><br>
+      <br>
+      <a href="rules-effectrules.html">效果規則</a><br>
+      <br>
+
+    </div>
+
+    &ensp;&ensp;
+  
+    <div class="content">
+      <table cellpadding="10">
+        <tr>
+        <td valign="top">
+          <font size="4" color="#FFFFF">
+            從手牌選擇符合召喚條件或是無條件的英靈。<br>若是有卡片效果指定從其他處召喚，則接續第二步。 
+        </font>
+        </td>
+      </tr>
+      </table>
+
+      <img src="images/流程圖案.png">
+
+      <table cellpadding="10">
+        <tr>
+        <td valign="top">
+          <font size="4" color="#FFFFF">
+            若召喚條件有需要代價，則將所需代價進行處理；若無需代價則跳到第三步。此時雙方無法使用卡片效果。
+        </font>
+        </td>
+      </tr>
+      </table>
+
+      <img src="images/流程圖案.png">
+
+      <table cellpadding="10">
+        <tr>
+        <td valign="top">
+          <font size="4" color="#FFFFF">
+            將召喚對象放置到我方前鋒區或後衛區，並且支付自己的靈力來為召喚對象補充生命值（無法超過對象的生命值上限）。<br>
+            上述結束後雙方可以使用卡片效果。
+
+        </font>
+        </td>
+      </tr>
+      </table>
+
+      <br><br>
+
+      <font size="5" color="#FF8247">【召喚方式的種類】</font><br>
+      <hr size="7" align="left" color="#FF8247" noshade="90">
+      <table cellpadding="10">
+        <tr >
+        <td valign="top"><font size="5" color="#FFFFF">直接召喚</font></td>
+        <td valign="top">
+          <font size="4" color="#FFFFF">
+            從手牌選擇能直接召喚的對象放在場上來召喚，或是因卡片效果能從指定區域直接召喚指定英靈。<br>
+            能從手牌直接召喚的英靈的召喚條件為「無」。
+        </font>
+        </td>
+      </tr>
+
+      <tr >
+        <td valign="top"><font size="5" color="#FFFFF">混合召喚</font></td>
+        <td valign="top">
+          <font size="4" color="#FFFFF">
+            從手牌選擇混合召喚的對象，將自己英靈區等級總和為對象等級的指定英靈都送入冥界區（單體素材等級為對象等級也行），然後從手牌把對象召喚到英靈區。<br>
+            召喚後，素材的總剩餘生命會繼承給召喚對象，若對象因此而滿生命，就不用支付靈力給召喚對象補充生命。
+        </font>
+        </td>
+      </tr>
+
+      <tr >
+        <td valign="top"><font size="5" color="#FFFFF">特殊召喚　</font></td>
+        <td valign="top">
+          <font size="4" color="#FFFFF">
+            手牌中有英靈符合條件或時機，從手牌將其特殊召喚。
+        </font>
+        </td>
+      </tr>
+      </table>
+
+    </div>
+  </div>
+
+  <br><br><br>
+
+    <footer>
+      <center>
+          <br>
+          <a href="index.html"><font color="#000000">回到首頁</font></a>
+          <br>
+          <font color="#000000">聯絡方式：hometownoflost@gmail.com（gmail）</font>
+          <br>
+          @2023 hometown of lost team
+          <br><br>
+          
+      </center>
+    </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="zh-hant-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>失落之鄉</title>
+    <link rel="stylesheet" href="art.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <style>body{font-family: 'Noto Sans TC', sans-serif;}</style>
+  </head>
+  <body>
+    <header>
+      <center><a href="index.html"><img src="images/logo.png" width="350"></a><br>
+      <div class="menu">
+        <a href="card.html"><img src="images/卡片圖鑑按鍵.png" width="120"></a>
+        <a href="worldview.html"><img src="images/故事劇情按鍵.png" width="120"></a>
+        <a href="rules.html"><img src="images/詳細規則按鍵.png" width="120"></a>
+        <a href="tactics.html"><img src="images/打法教學按鍵.png" width="120"></a>
+      </div>
+    </center>
+
+    <br>
+    
+     <!--輪播
+      移開式 id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    淡入淡出式 id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">-->
+    <center>
+      <div data-bs-interval="3000" id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="001.html"><img src="images/banner0.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="002.html"><img src="images/banner1.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="003.html"><img src="images/banner2.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="004.html"><img src="images/banner3.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="005.html"><img src="images/banner4.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </center>
+  </header>
+
+  <br>
+
+  <div class="box">
+    <!--系列選單-->
+    <div class="seriesmenu">
+      <a href="sitecard.html">場地卡</a><br>
+      <br>
+      <a href="001.html"><font color="#cc8a3f">殺戮革命系列</font></a><br>
+      <br>
+      <a href="002.html">無國界旅團系列</a><br>
+      <br>
+      <a href="003.html">德魯伊聯合部族系列</a><br>
+      <br>
+      <a href="004.html">百鬼夜行物語系列</a><br>
+      <br>
+      <a href="005.html">創世龍的後裔系列</a><br>
+      <br>
+      <a href="006.html">永夜族領土系列</a><br>
+      <br>
+      <a href="007.html">月神淨土系列</a><br>
+      <br>
+      <a href="008.html">盛大魔法師系列</a><br>
+      <br>
+      <a href="009.html">鋼鐵核心系列</a><br>
+      <br>
+      <a href="010.html">破陣兵團系列</a><br>
+      <br>
+    </div>
+
+    &ensp;&ensp;
+  
+      <!--卡片介紹-->
+      <div class="content">
+        <font size="4" color="#FFFFF">
+          <center>
+            <h3>殺戮革命系列</h3>
+            因為人類信仰式微，日神族不再受到大量祭祀，進而產生有神開始力量消失或死去。<br>
+            有一群企圖改變這情況的日神族，飲下領頭赫勒爾的血成為魔族，並對人間展開奴役和屠殺。<br><br>
+            <img src="images/系列卡背/001 殺戮革命murderous revolution.png" width="240">
+          </center>
+        </font>
+        <!--英靈卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#hero" role="button" aria-expanded="false" aria-controls="hero">
+        <img src="images/英靈卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="hero">
+          <table>
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 孤傲的劍王 赫勒爾.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-H-01 孤傲的劍王 赫勒爾</b></font><br>
+              <font size="4" color="#FFFFF">
+                等級5<br>
+                力量／生命上限：2／7<br>
+                元素／種族：火／魔<br>
+                特殊攻擊類型：暴擊<br>
+                召喚條件：特殊召喚。條件為將2張手牌送入冥界。<br>
+                技能－淬血劍：<br>
+                我方處於召換階段時，此卡需在前峰區才能使用此技能。<br>
+                同名卡1回合只能使用1次。<br>
+                將我方上任意數量的英靈送入冥界，並且這些英靈的總剩餘生命點數加至此卡的力量，直至回合結束。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                赫勒爾曾是日神族中威望數一數二高的劍神。同時，也是人們最廣泛信仰的神祇。<br>
+                隨著時間過去，人類的信仰式微，赫勒爾發覺自己的力量開始受限，以及他身邊的同胞也同樣被影響。<br>
+                在徒弟妖眼主動拔除神格、心愛的妻子因衰弱而陷入長眠，赫勒爾就決定要組織一個逼迫人類重溫信仰的軍團，即使要屠殺人類。<br>
+                第一次侵入人間失敗後，他在冥界找到並拔出了一把環繞殺氣和血光的魔劍，而魔劍的劍魂也認可了他，將赫勒爾化為了魔族。<br>
+                該魔劍名為「那靈魔劍」，這可以讓他直接吸取任何生命的生命能量。<br><br>
+  
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 冥界晨星 努提法.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-H-02 冥界晨星 努提法</b></font><br>
+              <font size="4" color="#FFFFF">
+                等級6<br>
+                力量／生命上限：8／8<br>
+                元素／種族：光／魔<br>
+                特殊攻擊類型：暴擊<br>
+                召喚條件：特殊召喚。條件為透過卡名為「生殺予奪」的事件卡來召喚。<br>
+                技能－自由意志：<br>
+                此卡召喚時才能使用此技能。<br>
+                同名卡1回合只能使用1次。<br>
+                從冥界選擇2張等級5或以下的「殺戮革命」系列的英靈召喚至我方場上，以及從牌組將1張「冥界軍團的重整」加入手牌。之後，我方場上現存的「殺戮革命」系列的英靈不會被對手的英靈卡技能影響，直至此卡離開場上。 
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                在第一次侵略人間失敗後，赫勒爾前往冥界自我修練，同時徵召更多戰力。<br>
+                赫勒爾發起宣傳，內容為只要飲下他自己的血，便能成為魔族，不再受到信仰影響力量。<br>
+                撒妙曾問過赫勒爾「既然成為魔族，力量和壽命不再被影響。那麼接下來的動機是什麼」。對於這問題，努提法給出的回答是「為了還在天界的同胞」，但是，此時努提法的內心開始一點一點走向純粹的壓抑人類。<br>
+                在發起第二次侵略人間之前，改名為「努提法」。<br>
+                身旁曾經為日神族的魔族都稱其為「晨星」。<br><br>
+               
+              </font></td>
+            </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 旁觀者 貝爾芬格.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>001MR-H-03 旁觀者 貝爾芬格</b></font><br>
+            <font size="4" color="#FFFFF">
+            力量／生命上限：4／6<br>
+            元素／種族：土／魔<br>
+            召喚條件：特殊召喚。條件為我方場上存在「殺戮革命」系列的英靈。<br>
+            技能－一瞬即逝：<br>
+            我方處於召喚階段時，此卡須在後衛區，並將1張手牌送入冥界來使用此技能。<br>
+            同名卡1回合只能使用1次。<br>
+            將我方場上1張英靈送入冥界，之後選擇對手場上1張英靈送入冥界。此卡於此回合無法攻擊。
+            <hr size="7" align="left" color="#FF8247" noshade="90">
+            雖然是日神族當中最無人問津的神，但是很奇妙的是，貝爾芬格比較不會受到信仰影響力量。<br>
+            而他基本上對大部份事情都不過問，也不主動解決。<br>
+            礙於長相外貌問題，在日神族中也比較不受歡迎，但是他毫不在乎。<br>
+            在赫勒爾組織同夥時，一時想找樂子的他決定加入，只是之後大多時間他都在做自己的事，而赫勒爾不太管。<br>
+            具有強制剝奪生命的能力，但是常傷及己方陣營。<br><br>
+
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 神權覬覦 利未雅坦.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>001MR-H-04 神權覬覦 利未雅坦</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3
+              力量／生命上限：4／3<br>
+              元素／種族：水／魔<br>
+              特殊攻擊類型：暴擊<br>
+              召喚條件：無。<br>
+              技能－天堂鐘響．幻境：<br>
+              我方處於召喚階段時，將1張手牌送入冥界來使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              對手從牌組抽1張牌。<br>
+              下次對手回合內，混合召喚次數增加1次，並且對手每次召喚英靈時，我方從牌組抽1張牌，同時對手場上所有英靈受到1點傷害。最多觸發3次。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              曾經，人們一次次陷入戰爭和瘟疫，都是由利未雅坦帶來福音，為人類帶來救贖，讓人類在天堂般的幻境之中受到治癒。<br>
+              現在，日神族中力量衰弱最嚴重之一的他，還是得面對生存困境。因此，他選擇加入了赫勒爾。<br>
+              時間過去，利未雅坦不斷懷疑自己的選擇，他曾對撒妙表示此煩惱，但是得不到解答。<br>
+              最終，生存的本能壓過了道德，他飲下了赫勒爾的血，成為貨真價實的魔族。雖然不再是日神族，已經自願成為魔族，但還是常常呢喃著在天界生活的一切。<br>
+              手上可以幻化出一串鈴鐺，這個神奇的鈴鐺可以在自身周圍製造出短暫的天界幻境。<br><br>
+
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 傲視智者 撒妙.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>001MR-H-05 傲視智者 撒妙</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級5<br>
+              力量／生命上限：4／7<br>
+              元素／種族：火／魔<br>
+              特殊攻擊類型：暴擊<br>
+              召喚條件：特殊召喚。條件為將1張手牌送入冥界。<br>
+              技能－紫焰戰場：<br>
+              我方處於召喚階段時，此卡須在後衛區，並將1張手牌送入冥界來使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              以對手場上現存的所有英靈為對象。下次對手回合內，有任一對象離開場上，則於回合結束時，選擇對手場上1張英靈的控制權轉移至我方。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              撒妙在日神族中是最理性、沒有情感的神衹，對於知識可以是上知天文，下知地理。<br>
+              赫勒爾親自拜訪他的神殿，以最誠懇的態度訴說著為了日神族同胞的計畫。於是，撒妙最終選擇支持赫勒爾。<br>
+              他的身上無時無刻都圍繞著紫色火焰，這道火焰可以幫助他束縛住任何人事物。<br><br>
+
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 慾望指引者 阿斯梅德.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>001MR-H-06 慾望指引者 阿斯梅德</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：4／5<br>
+              元素／種族：氣／魔<br>
+              特殊攻擊類型：暴擊<br>
+              召喚條件：無。<br>
+              技能－亡靈之奴：<br>
+              雙方處於各自的召喚階段時，此卡須在後衛區，並將1張手牌送入冥界來使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              對手場上所有英靈受到1點傷害。若是有英靈因此傷害而剩1點生命，則將該英靈的控制權轉移至我方。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              曾是日神族當中的愛情女神，十分喜歡調戲其他男神，甚至傳出許多緋聞。<br>
+              後來，也受到人類信仰式微的影響，力量逐漸弱化，於是在受到赫勒爾的感召之下，願意為其效勞。<br>
+              手持骷髏杖，可以對意志力薄弱的人進行強制誘惑。<br><br>
+
+            </font></td>
+          </tr>
+
+          </table>
+        </div>
+
+        <!--事件卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#event" role="button" aria-expanded="false" aria-controls="event">
+        <img src="images/事件卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="event">
+            <table>
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 生殺予奪.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>001MR-E-01 生殺予奪</b></font><br>
+                <font size="4" color="#FFFFF">
+                  長期事件卡<br>
+                  我方處於召喚階段時，選擇我方場上1張「殺戮革命」系列的英靈為對象來使用此卡。同名卡1回合只能使用1次，下次我方回合無法使用。<br>
+                  此回合內，對象每次擊敗攻擊對象時，此卡累積1點魔印。並於戰鬥結算階段時，可以將我方場上1張英靈送入冥界，增加1次對象的攻擊次數。若達到6點則此卡效果變為：雙方的召喚階段來使用此卡。此卡送入冥界。從冥界將1張「冥界晨星 努提法」召喚至我方場上。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  在第一次侵略人間失敗後，為了準備第二次，赫勒爾會私下在人間殺死落單的人。靠著魔劍吸取死人的生命能量，之後回到冥界去吸收這股能量，使自己越來越強大。<br><br>
+                </font></td>
+              </tr>
+
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 生靈殆盡.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>001MR-E-02 生靈殆盡</b></font><br>
+                <font size="4" color="#FFFFF">
+                  對手場上有英靈受到戰鬥傷害或被擊敗時才能使用此卡。<br>
+                  對手將1張手牌送入冥界。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  從組織軍團的行動開始，赫勒爾的內心逐漸有了殺戮的欲望。<br><br>
+                </font></td>
+              </tr>
+
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 判神集結.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>001MR-E-03 判神集結</b></font><br>
+                <font size="4" color="#FFFFF">
+                  我方處於召喚階段時，並我方場上存在至少１張「殺戮革命」系列的英靈才能使用此卡。<br>
+                  從牌組將1張「殺戮革命」系列的英靈加入手牌。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  以赫勒爾為首的日神族自稱為「判神」。<br><br>
+                </font></td>
+              </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 冥界軍團的重整.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-E-04 冥界軍團的重整</b></font><br>
+              <font size="4" color="#FFFFF">
+                我方處於召喚階段時，扣除我方5點生命來使用此卡。<br>
+                同名卡1回合只能使用1次。<br>
+                將牌組和冥界的卡片交換。對手可以選擇在我方宣告使用後，扣除5點生命來進行此卡效果。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                赫勒爾在冥界徵召戰力，有許多漂流在冥界的亡魂飲下了他的血之後，便擁有了完整的實體和源源不絕的魔力。<br><br>               
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 貪婪者的遊盪.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-E-05 貪婪者的遊盪</b></font><br>
+              <font size="4" color="#FFFFF">
+                長期事件卡<br>
+                我方處於召喚階段時，將牌組上方2張牌送入冥界來使用此卡。<br>
+                同名卡1回合只能使用1次。<br>
+                從冥界選擇1張牌加入手牌。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                財富之神．梅姆恩自願跟隨赫勒爾，她幫助赫勒爾在冥界建立宮殿，還到人間搜刮許多財物。只不過，由於她常常不在，連會議也沒有參加，所以其他軍團團員都以為她只是在外閒遊。<br><br>
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 暴食者的揮霍.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-E-06 暴食者的揮霍</b></font><br>
+              <font size="4" color="#FFFFF">
+                長期事件卡<br>
+                我方處於召喚階段時，將2張手牌送入冥界來使用此卡。<br>
+                同名卡1回合只能使用1次。<br>
+                從牌組抽1張牌。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                比勒茲布可以說是赫勒爾的代理者。在赫勒爾第一次來到冥界後，便指派比茲勒布為代理，每當赫勒爾不在冥界，那麼這裡的種種一切都交給比茲勒布。<br>
+                也許是在日神族中沒有得到想要的權利，他在執行代理任務的時候，都特別以自我利益為主，還時常口口聲聲說為赫勒爾好。<br><br>
+
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 魔劍的嘉勉.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-E-07 魔劍的嘉勉</b></font><br>
+              <font size="4" color="#FFFFF">
+                我方場上有「殺戮革命」系列的英靈造成戰鬥傷害或擊敗攻擊對象時才能使用此卡。
+                該英靈回復2點生命。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                有時候，赫勒爾會將那靈魔劍借給其他同伴。而劍本身有自己的意識，它只會聽從被赫勒爾認可持有的對象。<br><br>
+              </font></td>
+            </tr>
+
+          </table>
+        </div>
+
+        <!--器物卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#thing" role="button" aria-expanded="false" aria-controls="thing">
+        <img src="images/器物卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="thing">
+            <table>
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 血泉聖杯.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>001MR-T-01 血泉聖杯</b></font><br>
+                <font size="4" color="#FFFFF">
+                  <b>持有條件：持有者必須為「殺戮革命」系列的英靈。</b><br>
+                  我方處於召喚階段時，將我方生命扣除3點來使用此卡效果。<br>
+                  同名卡1回合只能使用1次。<br>
+                  持有者回復1點生命。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  利未雅坦在赫勒爾軍團中負責管理所有神器，而血泉聖杯必須花更多的時間監看。<br>
+                  杯中所裝的是赫勒爾的血，只需要一滴，便能在杯中無限增長，直到滿杯。<br>
+                  一旦有任何生命飲下，便容易發生暴走、破壞四周一切。<br><br>
+  
+                </font></td>
+              </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 那靈魔劍.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-T-02 那靈魔劍</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「殺戮革命」系列的英靈。</b><br>
+                持有者擊敗攻擊對象時才能使用此卡效果。<br>
+                持有者回復1點生命，上升1點力量。 
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                魔劍在清淨天創造天界和冥界後，便一直存在於冥界的某一處。<br>
+                在赫勒爾將其拔出後，魔劍將赫勒爾視為主人，並使赫勒爾成為了魔族，不再受到信仰的影響。<br>
+                劍中有個嗜血的劍魂，渴望持有者能夠使用它來殺戮。<br><br>
+               
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 命運之矛.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>001MR-T-03 命運之矛</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「殺戮革命」系列的英靈。</b><br>
+                我方處於召喚階段時，將1張手牌送入冥界來使用此卡效果。<br>
+                同名卡1回合只能使用1次。<br>
+                選擇對手事物區1張卡片送入冥界。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                本來是天界中維護所有機關運作的神器。後來赫勒爾在侵略人間時，吩咐撒妙將其偷出。<br>
+                命運之矛在撒妙手中後，開始具有將使用者不想經歷的事情給刪去的能力。<br><br>
+
+              </font></td>
+            </tr>
+
+          </table>
+        </div>
+
+    </div>
+  </div>
+ 
+  <br><br><br>
+
+    <footer>
+      <bottom>
+      <center>
+          <br>
+          <a href="index.html"><font color="#000000">回到首頁</font></a>
+          <br>
+          <font color="#000000">聯絡方式：hometownoflost@gmail.com（gmail）</font>
+          <br>
+          @2023 hometown of lost team
+          <br><br>
+          
+      </center>
+      </bottom>
+    </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

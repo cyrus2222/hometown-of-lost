@@ -1,0 +1,78 @@
+body{
+  background-image: url(images/底圖.png)
+  
+}
+
+.menu :hover{
+  transform: scale(1.2, 1.2);
+
+}
+
+.morestory :hover{
+  transform: scale(1.2, 1.2);
+
+}
+
+footer{
+  background-image: url(images/頁尾底圖.png);
+}
+
+header{
+  margin:30px;
+}
+
+/* ====================================================== */
+.box{
+  display: flex;
+}
+
+.seriesmenu{
+  background-image: url(images/系列清單底圖.png);
+  width:207px;
+  height:1000px;
+}
+
+.seriesmenu a {
+  text-decoration: none;
+  font-size: 18px;
+  color:#2b1000;
+  padding:8px;
+  top:10px;
+  position:relative;
+  }
+
+  .seriesmenu :hover{
+    transform: scale(1.2, 1.2);
+    left:5px;
+    color:	#cc8a3f;
+  }
+
+.content{
+  position: relative; 
+  left: 10%;
+  width: 1110px;
+  padding: 20px;
+  text
+}
+
+.tactics{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tactics-img{
+  transition: all 0.2s linear;
+}
+
+.tactics-img:hover{
+  transform: scale(1.5);
+  transition: all 0.2s linear;
+}
+
+
+/* ====================================================== */
+
+
+
+/* ====================================================== */

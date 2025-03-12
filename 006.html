@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="zh-hant-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>失落之鄉</title>
+    <link rel="stylesheet" href="art.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <style>body{font-family: 'Noto Sans TC', sans-serif;}</style>
+  </head>
+  <body>
+    <header>
+      <center><a href="index.html"><img src="images/logo.png" width="350"></a><br>
+      <div class="menu">
+        <a href="card.html"><img src="images/卡片圖鑑按鍵.png" width="120"></a>
+        <a href="worldview.html"><img src="images/故事劇情按鍵.png" width="120"></a>
+        <a href="rules.html"><img src="images/詳細規則按鍵.png" width="120"></a>
+        <a href="tactics.html"><img src="images/打法教學按鍵.png" width="120"></a>
+      </div>
+    </center>
+
+    <br>
+    
+     <!--輪播
+      移開式 id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    淡入淡出式 id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">-->
+    <center>
+      <div data-bs-interval="3000" id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="001.html"><img src="images/banner0.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="002.html"><img src="images/banner1.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="003.html"><img src="images/banner2.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="004.html"><img src="images/banner3.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="005.html"><img src="images/banner4.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </center>
+  </header>
+
+  <br>
+
+  <div class="box">
+    <!--系列選單-->
+    <div class="seriesmenu">
+      <a href="sitecard.html">場地卡</a><br>
+      <br>
+      <a href="001.html">殺戮革命系列</a><br>
+      <br>
+      <a href="002.html">無國界旅團系列</a><br>
+      <br>
+      <a href="003.html">德魯伊聯合部族系列</a><br>
+      <br>
+      <a href="004.html">百鬼夜行物語系列</a><br>
+      <br>
+      <a href="005.html">創世龍的後裔系列</a><br>
+      <br>
+      <a href="006.html"><font color="#cc8a3f">永夜族領土系列</font></a><br>
+      <br>
+      <a href="007.html">月神淨土系列</a><br>
+      <br>
+      <a href="008.html">盛大魔法師系列</a><br>
+      <br>
+      <a href="009.html">鋼鐵核心系列</a><br>
+      <br>
+      <a href="010.html">破陣兵團系列</a><br>
+      <br>
+    </div>
+
+    &ensp;&ensp;
+  
+      <!--卡片介紹-->
+      <div class="content">
+        <font size="4" color="#FFFFF">
+          <center>
+            <h3>永夜城一族系列</h3>
+            根深在一塊地勢偏低的土地上，長年不受陽光直射，萬物難以生長。白天宛如黃昏，黃昏之時宛如深夜。為了能在這生活下去，祖先研究了一個個禁術，同時也帶來了詛咒，使得後代族人變得極度嗜血。<br><br>
+            <img src="images/系列卡背/006 永夜城一族Eternal Night City Clan.png" width="240">
+          </center>
+        </font>
+        <!--英靈卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#hero" role="button" aria-expanded="false" aria-controls="hero">
+        <img src="images/英靈卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="hero">
+          <table>
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 永夜城領主 德古拉.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-H-01 永夜城領主 德古拉</b></font><br>
+              <font size="4" color="#FFFFF">
+                等級6<br>
+                力量／生命上限：7／5<br>
+                元素／種族：暗／魔<br>
+                特殊攻擊類型：無<br>
+                召喚條件：混合召喚。<br>
+                素材必須為「永夜城一族」系列的英靈。<br>
+                技能－血爆：<br>
+                我方處於召喚階段，此卡在前鋒區時，扣除此卡4點生命來使用此技能。
+                同名卡1回合只能使用1次。<br>
+                對手前鋒區的英靈受到4點生命傷害（前鋒區沒英靈的話則變為後衛區），若是有英靈因此效果送入冥界，則此卡回復4點生命。<br>
+                （此卡生命為1或扣除後低於1則無法使用。）
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                永夜族的第二代君主。<br>
+                當初，為了能夠在荒廢且不受陽光照射的土地上生存，他帶領部分國人研究禁術，導致整個族人變得嗜血，而且害怕陽光。<br>
+                後來，藉由禁術來轉移靈魂，不斷將自己的靈魂寄宿到後代子孫身上。<br>
+                可以隨意操控他人的血液，並產生爆炸般的衝擊。<br><br>
+  
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 永夜城巡遊者 該隱.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-H-02 永夜城巡遊者 該隱</b></font><br>
+              <font size="4" color="#FFFFF">
+                等級3<br>
+                力量／生命上限：4／4<br>
+                元素／種族：暗／魔<br>
+                特殊攻擊類型：無<br>
+                召喚條件：無。<br>
+                技能－歃血為盟：<br>
+                我方處於召喚階段，此卡在前鋒區時，將此卡的生命扣除指定數量來
+                使用此技能。<br>
+                將扣除的數值回復在我方場上1張此卡以外的「永夜城一族」系列的
+                英靈。<br>
+                此回合內，此卡力量上升3點。（扣除不能使此卡生命歸零，此卡生命為1則無法使用。）
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                在赫勒爾發起第二次進攻人間時，該隱受任為整個永夜族領土的最高軍事指揮官，同時肩負邊境的安危。<br>
+                該隱平時身穿輕巧戰甲，並腳踏一團以血凝聚的東西來飛行。<br>
+                可以將自己的血液凝聚成圓球射出來產生爆炸，或變成武器。<br><br>
+              </font></td>
+            </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 永夜皇后 伊莉莎白.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>006EN-H-03 永夜皇后 伊莉莎白</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：4／4<br>
+              元素／種族：暗／魔<br>
+              特殊攻擊類型：無<br>
+              召喚條件：無。<br>
+              技能－血之強奪：<br>
+              此卡在後衛區，並且此卡被選為攻擊對象時才能使用此技能。<br>
+              同名卡1回合只能使用1次。<br>
+              對手前鋒區的英靈受到1點生命傷害（前鋒區沒英靈的話則變為後衛區），之後將受到此傷害的英靈數量回復於此卡生命。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              在赫勒爾發起第二次進攻人間之前，德古拉所迎娶的妻子。<br>
+              伊莉莎白是族人歷史中，第一位能夠悄然奪去其他生命的血液。<br>
+              平時總愛在宮殿中等待僕人供上動物的血。<br><br>
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 永夜侍女 安普莎.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>006EN-H-04 永夜侍女 安普莎</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：2／2<br>
+              元素／種族：暗／魔<br>
+              特殊攻擊類型：無<br>
+              召喚條件：無。<br>
+              技能－血之備品：<br>
+              我方處於召喚階段，此卡在後衛區時，將此卡送入冥界來使用此技能。<br>
+              我方場上「永夜城一族」系列的英靈恢復1點生命。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              本來是侍奉第二代永夜族君主德古拉的家僕，但是德古拉對安普莎的愛比妻子強烈，於是在德古拉對於自身的轉生禁術研究完成後，他每次都會在安普莎老死前，會秘密進行讓安普莎轉生到族人身上。一開始安普莎十分不願意，不過在第一次轉生後的日子，她也對德古拉產生愛意。<br><br>
+
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 永夜公主 拉密亞.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>006EN-H-05 永夜公主 拉密亞</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：5／3<br>
+              元素／種族：暗／魔<br>
+              特殊攻擊類型：無<br>
+              召喚條件：無。<br>
+              技能－血債血償：<br>
+              我方前鋒區「永夜城一族」系列的英靈受到戰鬥傷害時才能使用此技能。<br>
+              使對手前鋒區1張英靈受到等值的生命傷害，並且我方場上「永夜城一族」系列的英靈恢復1點生命。
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              德古拉和伊莉莎白的親生女兒，也是唯一孩子。<br>
+              從小報復心強，所以整個宮殿的人都不敢惹她，包含母親。不過，伊莉莎白只是怕麻煩而已。<br>
+              德古拉是拉密亞唯一親密的人，她非常崇拜父親的功績。<br>
+              一旦有同伴受傷，她便會毫不客氣的對加害者進行報復。<br><br>
+
+            </font></td>
+          </tr>
+
+          <tr valign="top" align="left">
+            <td><img src="images/卡片 永夜異類 克蕾兒.png" width="270"></td>
+            <td ><font size="5" color="#FFFFF"><b>006EN-H-06 永夜異類 克蕾兒</b></font><br>
+            <font size="4" color="#FFFFF">
+              等級3<br>
+              力量／生命上限：3／3<br>
+              元素／種族：暗／魔<br>
+              特殊攻擊類型：無<br>
+              召喚條件：無。<br>
+              技能－復仇反擊：<br>
+              我方有英靈被選為攻擊對象時才能使用此技能。<br>
+              使該次攻擊無效。下次我方回合開始時可選擇是否扣除此卡4點生命，若選擇扣除，則此卡於該回合的特殊攻擊類型變為散射。（此卡生命為1或扣除後低於1則無法選擇扣除。）
+              <hr size="7" align="left" color="#FF8247" noshade="90">
+              克蕾兒的母親是永夜族人，父親則是德魯伊族人。不過，正因德魯伊一直以來歧視禁術而打壓永夜族，所以多數永夜族人痛恨德魯伊族，而克蕾兒父母親的婚姻也就不被認同。<br>
+              因為擁有德魯伊的血統，身體裡面擁有極其珍貴的物種「華美天堂鳥」的野獸之力，能夠在不超過體力負荷的情況下，利用幻化出來的翅膀接觸吸收掉大部分魔力形成的元素魔法，並具有飛行功能。<br>
+              父母親和克蕾兒三人在永夜族的偏僻村莊生活，直到某天父親在外再娶，之後再也沒有回家過。此時的克蕾兒正值青少年。<br>
+              後來，永夜族君主德古拉請了一位日向族的魔法師入村，施展了一道巨大的火海吞噬了克蕾兒母子倆的房子，當時正值三更半夜，母子倆睡得正香，來不及在第一時間逃跑。<br>
+              以當時克蕾兒的能力來講，她無法利用翅膀吸收掉這恐怖的火海，而且大火將她的翅膀逐漸燒爛，連皮膚也被燒到一片血紅。<br>
+              母親艱難地扛著克蕾兒走向屋外，並施展著以血凝成的魔力防護罩，但是因為體力不多，沒辦法撐太久，只能撐到剛好走出屋外。<br>
+              魔法師向兩人射出火球，此時克蕾兒硬是用翅膀擋下，接著伸手凝聚血球射出，血球在碰到魔法師後產生爆炸，這不得不讓他向後閃避，使得母子倆有逃脫空間。<br>
+              兩人來到不遠處的小木屋裡面，母親正憂愁該怎麼辦時，屋外刮起了一陣風。<br>
+              小木屋的門被打開了，屋外站著一名十幾歲的少年，手持竹竿大的毛筆。<br>
+              少年與其朋友以最快的速度帶著母子倆前往德魯伊地區的一座城鎮，並吩咐當地巫醫趕緊施展白魔法救治。<br>
+              可惜的是，當初襲擊的魔法師用的是人類祖先創造的古元素魔法，一旦被這種魔法的火焰燒到，僅憑人類的皮膚並不能消除傷痕。<br>
+              後來，克蕾兒與德魯伊人一起在學校學習，並與一名名為諾拉的女孩成為好姐妹。<br><br>
+
+            </font></td>
+          </tr>
+
+          </table>
+        </div>
+
+        <!--事件卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#event" role="button" aria-expanded="false" aria-controls="event">
+        <img src="images/事件卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="event">
+            <table>
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 狂妄的代價.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>006EN-E-01 狂妄的代價</b></font><br>
+                <font size="4" color="#FFFFF">
+                  我方場上有「永夜城一族」系列的英靈被擊敗時才能使用此卡。<br>
+                  同名卡1回合只能使用1次。<br>
+                  攻擊者受到4點生命傷害。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  雖然研究禁術長達多年，不過永夜族一向低調。<br>
+                  若是有外族對他們發起戰爭，在只需要守護疆土的情況下，他們也能讓對方損失大半軍力。<br><br>
+                </font></td>
+              </tr>
+
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 黑暗壟罩.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>006EN-E-02 黑暗壟罩</b></font><br>
+                <font size="4" color="#FFFFF">
+                  我方處於召喚階段時，將1張手牌送入冥界來使用此卡。<br>
+                  同名卡1回合只能使用1次。<br>
+                  下次對手回合內，我方場上的魔族英靈不受對手的卡片效果影響。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  永夜族的疆土長年不受陽光照射，在祖先們適應後，與後代都養成了在黑暗中行動的本事。<br>
+                  眼睛可以在黑暗中投射微弱的光線，並且能看見比常人視力更細微的色彩和光影。<br><br>
+                </font></td>
+              </tr>
+
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 永夜城不朽.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>006EN-E-03 永夜城不朽</b></font><br>
+                <font size="4" color="#FFFFF">
+                  我方處於召喚階段，我方場上沒有英靈時才能使用此卡。<br>
+                  同名卡1回合只能使用1次。<br>
+                  從冥界召喚1張「永夜城一族」系列的英靈。
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  一直以來，有許多外族都對永夜族發起戰爭。每一代都有部分族人能操控血液，所以即使有永夜族人大量失血，也能透過其他族人捐血來救治。<br><br>
+                </font></td>
+              </tr>
+
+          </table>
+        </div>
+
+        <!--器物卡-->
+        <center><a class="btn btn-default" data-bs-toggle="collapse" href="#thing" role="button" aria-expanded="false" aria-controls="thing">
+        <img src="images/器物卡.png" width="120"></a></center>
+        <div class="collapse multi-collapse" id="thing">
+            <table>
+              <tr valign="top" align="left">
+                <td><img src="images/卡片 血咒魔法．凝血屏障.png" width="270"></td>
+                <td ><font size="5" color="#FFFFF"><b>006EN-T-01 血咒魔法．凝血屏障</b></font><br>
+                <font size="4" color="#FFFFF">
+                  <b>持有條件：持有者必須為「永夜城一族」系列的英靈。</b><br>
+                  持有者在後衛區，並且我方前鋒區的英靈被選為攻擊對象時才能使用此技能。<br>
+                  持有者扣除1點生命，此回合內我方魔族英靈不會因為戰鬥傷害而被擊敗。（持有者生命為1或扣除後低於1則無法使用。）
+                  <hr size="7" align="left" color="#FF8247" noshade="90">
+                  德古拉在帶領祖先們研究禁術後的產物。<br>
+                  可以將自身血液抽出，並在空中凝結成一道堅硬的防護罩。<br><br>                  
+  
+                </font></td>
+              </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 血咒魔法．捨命換生.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-T-02 血咒魔法．捨命換生</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「永夜城一族」系列的英靈。</b><br>
+                我方處於召喚階段，扣除持有者1點生命來使用此技能。<br>
+                我方從牌組抽1張牌。（持有者生命為1或扣除後低於1則無法使用。）
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                德古拉在帶領祖先們研究禁術後的產物。<br>
+                可以將自身血液轉化為體內其他物質。<br><br>
+               
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 血咒魔法．復仇心切.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-T-03 血咒魔法．復仇心切</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「永夜城一族」系列的英靈。</b><br>
+                我方處於召喚階段，持有者在前鋒區時才能使用此技能。<br>
+                下次對手回合，對手只能選持有者為攻擊對象。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                德古拉在帶領祖先們研究禁術後的產物。<br>
+                這是極少數族人才能學會的禁術。<br>
+                可以侵入他人內心使其對施術者的殺意逐漸增加，進而失去理智。藉由這樣，讓族人更好圍攻或反制。<br><br>
+
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 血咒魔法．噬魔盾.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-T-04 血咒魔法．噬魔盾</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「永夜城一族」系列的英靈。</b><br>
+                對手英靈被選為攻擊者，並確認要觸發特殊攻擊時才能使用此技能。<br>
+                將該次攻擊的戰鬥傷害減少四分之三，並將原戰鬥傷害的數值於此卡產生魔力點數。<br>
+                若此卡有4點魔力點數則可以將此卡效果變為：我方召喚階段才能使用使技能。<br>
+                持有者力量上升魔力點數的數值直至回合結束，並將魔力點數清空。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                克蕾兒在逃難中使用凝血屏障和血爆，後來在魔法學院學到轉換魔法後回想到當初這件事。於是嘗試將轉換魔法的特質融入到屏障內，利用屏障將吸收到的魔法轉為魔力因子儲存在體內，使得下次施放的魔法可以輕鬆提升威力。<br><br>
+
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 血咒魔法．爆血網.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-T-05 血咒魔法．爆血網</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「永夜城一族」系列的英靈。</b><br>
+                我方處於召喚階段，持有者在後衛區才能使用此技能。<br>
+                選擇對手前鋒區或後衛區於下次對手回合內，使所選區域的英靈若有攻擊，則使該攻擊者於戰鬥結算階段受到2點生命傷害。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                爆血網和復仇心切是永夜族人用來以一擋多的絕技，通常由一名身披鎧甲的戰士施展。利用復仇心切的心理控制效果來吸引敵人，並利用爆血網隔開敵軍前線與後線。<br><br>
+
+              </font></td>
+            </tr>
+
+            <tr valign="top" align="left">
+              <td><img src="images/卡片 血咒魔法．血劍圍身.png" width="270"></td>
+              <td ><font size="5" color="#FFFFF"><b>006EN-T-06 血咒魔法．血劍圍身</b></font><br>
+              <font size="4" color="#FFFFF">
+                <b>持有條件：持有者必須為「永夜城一族」系列的英靈。</b><br>
+                我方處於召喚階段，持有者在前鋒區才能使用此技能。<br>
+                將持有者生命扣除指定數量，並將該數量於此卡產生血劍點數（持有者生命為1或扣除後低於1則無法使用）。<br>
+                持有者被對手選為攻擊對象時觸發將血劍點數抵銷於該次攻擊的戰鬥傷害，剩下的血劍點數繼續存在。<br>
+                持有者被選為攻擊者時可以觸發使該次攻擊的攻擊對象所受的戰鬥傷害增加血劍點數的數量，並清空血劍點數。
+                <hr size="7" align="left" color="#FF8247" noshade="90">
+                通常除了負責吸引大量敵軍的戰士會帶著近戰兵器以外，大多永夜族的士兵會學習血劍圍身。將自身少量血液抽出體外形成尖錐的外型，表面有結晶般的質感，平時會在施術者身旁浮空圍繞，施術者能使其如同箭矢般發射出去，也能用來擋下攻擊。<br><br>
+
+              </font></td>
+            </tr>
+
+          </table>
+        </div>
+
+    </div>
+  </div>
+ 
+  <br><br><br>
+
+    <footer>
+      <bottom>
+      <center>
+          <br>
+          <a href="index.html"><font color="#000000">回到首頁</font></a>
+          <br>
+          <font color="#000000">聯絡方式：hometownoflost@gmail.com（gmail）</font>
+          <br>
+          @2023 hometown of lost team
+          <br><br>
+          
+      </center>
+      </bottom>
+    </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
